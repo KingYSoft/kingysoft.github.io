@@ -508,8 +508,7 @@
 </tr>
 </tbody>
 </table>
-<div class="note primary"><p><strong>rsync 部署模块的工作方式</strong></p>
-<p><em>需要注意的是，要求您提供的实际上是一个能通过 SSH 登陆远程主机的 Linux 用户。Hexo 会自动处理关于 rsync 使用的一切操作。因此，您需要在远程主机上为您的 Hexo 站点建立一个用户，并允许其通过 SSH 登陆。不过，这里的 port，的确是指 rsync 监听的端口，请确保防火墙打开了该端口。</em></p></div>
+<div class="note primary"><p><strong>rsync 部署模块的工作方式</strong></p><p><em>需要注意的是，要求您提供的实际上是一个能通过 SSH 登陆远程主机的 Linux 用户。Hexo 会自动处理关于 rsync 使用的一切操作。因此，您需要在远程主机上为您的 Hexo 站点建立一个用户，并允许其通过 SSH 登陆。不过，这里的 port，的确是指 rsync 监听的端口，请确保防火墙打开了该端口。</em></p></div>
 <h1 id="写作"><a href="#写作" class="headerlink" title="写作"></a>写作</h1><p>执行下列命令来创建一篇新文章：</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> hexo new [layout] &lt;title&gt;</span><br></pre></td></tr></table></figure>
 <p>您可以在命令中指定文章的布局（layout），默认为 <code>post</code>，可以通过修改 <code>_config.yml</code> 中的 <code>default_layout</code> 参数来指定默认布局。</p>
@@ -547,8 +546,7 @@
 </tr>
 </tbody>
 </table>
-<div class="note default"><p><strong>不要处理我的文章</strong></p>
-<p><em>如果你不想你的文章被处理，你可以将 Front-Matter 中的<code>layout:</code> 设为 <code>false</code> 。</em></p></div>
+<div class="note default"><p><strong>不要处理我的文章</strong></p><p><em>如果你不想你的文章被处理，你可以将 Front-Matter 中的<code>layout:</code> 设为 <code>false</code> 。</em></p></div>
 <h2 id="文件名"><a href="#文件名" class="headerlink" title="文件名"></a>文件名</h2><p>Hexo 默认以标题做为文件名称，但您可编辑 <code>new_post_name</code> 参数来改变默认的文件名称，举例来说，设为 <code>:year-:month-:day-:title.md</code> 可让您更方便的通过日期来管理文章。</p>
 <table>
 <thead>
@@ -697,10 +695,6 @@
   </article>
 
 
-
-    <div class="post-spread">
-      
-    </div>
   </div>
 
 
@@ -759,7 +753,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-count">4</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -911,7 +905,10 @@
     
 
     
+	
+    
 
+    
   </div>
 
   
